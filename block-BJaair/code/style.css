@@ -1,0 +1,50 @@
+#notice-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  #notice-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #notice-form input[type="text"],
+  #notice-form select {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    font-size: 16px;
+  }
+
+  #notice-form button {
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .notice {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .notice-title,
+  .notice-category {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .notice-body {
+    margin-top: 10px;
+  }
